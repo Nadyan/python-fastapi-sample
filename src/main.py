@@ -6,6 +6,9 @@ from models import User
 
 app = FastAPI()
 
+
+# Routes:
+
 @app.get("/")
 def root():
     return {
